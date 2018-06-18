@@ -29,7 +29,7 @@ void setup(){
   size(720, 720);
   frameRate(3000);
   sandPiles = new int[width][height];
-  sandPiles[width/2][height/2] = 2000000;
+  sandPiles[width/2][height/2] = 1000000;
 }
 
 void render(){
